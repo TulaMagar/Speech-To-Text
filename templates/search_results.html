@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+
+        <title>Search Results</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+
+    <body>
+
+        <div class="w3-center">
+
+            <h2>Audio file speech to text</h2>
+
+            <ol class="w3-ol w3-center"> 
+                <!-- Print a data -->
+                {%for i in Data%} 
+                
+                    <li>{{i}}</li> 
+
+                {%endfor%} 
+                
+            </ol>
+            
+        </div>
+        
+    </body>
+</html>
